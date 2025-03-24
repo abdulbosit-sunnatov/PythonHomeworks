@@ -1,19 +1,19 @@
-# Task 1 
+#q1
 year = int(input("Years: "))
 name = input("name: ")
 print(f"{name} is {2024-year} year")
 
-# Task 2
-# Task 3
+# q2
+# q3
 my_string = input("String: ")
 print(len(my_string))
 my_string.upper()
 my_string.lower()
 
-#Task 4
+#q4
 print(my_string == my_string[::-1])
 
-# Task 5
+#q5
 vowel_count = 0
 vowels = "aeiouAEIOU"
 for char in my_string:
@@ -21,30 +21,29 @@ for char in my_string:
         vowel_count += 1
 print(vowel_count)
 print(len(my_string) - vowel_count)
-  
 
-# Task 6
+#q6
 g = "qw"
 print(g in my_string)
 
-# Task 7
+#q7
 sentence = input("sentence: ")
 word_replace = input("replace: ")
 replacement_word = input("replacement: ")
 updated_sentence = sentence.replace(word_replace, replacement_word)
 print(updated_sentence)
 
-# Task 8
+#q8
 print(my_string[0])
 print(my_string[-1])
 
-# Task 9
+#q9
 print(my_string[::-1])
 
-# Task 10
+#q10
 print(len(sentence.split()))
 
-# Task 11
+#q11
 for i in my_string:
     if i.isdigit():
         print(True)
@@ -52,30 +51,30 @@ for i in my_string:
 else:
     print(False)
 
-# Task 12
+#q12
 new_string = my_string+"_"+replacement_word
 print(new_string)
 
-# Task 13
-new = my_string.replace(" ", "")
+#q13
+yangi = my_string.replace(" ", "")
 
-# Task 14
+#q14
 a = input()
 b = input()
 a == b
 
-# Task 15
+#q15
 words = sentence.split()
 acronym = ''.join(word[0].upper() for word in words)
 print(acronym)
 
-# Task 16
+#q16
 strr = input("Enter: ")
 charr = input("Char")
 strr.replace(charr, "")
 
-# Task 17
+#q18
 sen = input()
-start = input()
-end = input()
-sen.startswith(start) and sen.endswith(end)
+startt = input()
+endd = input()
+sen.startswith(startt) and sen.endswith(endd)

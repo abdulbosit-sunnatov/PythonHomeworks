@@ -1,39 +1,28 @@
-# Task 1
-username = input("Enter username: ")
-password = input("Enter password: ")
-print("Valid" if username and password else "Invalid")
+#q1
+name = input("Name")
+password = input("Pasword")
+if name and password:
+    print("accept")
 
-# Task 2
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-print("Equal" if a == b else "Not equal")
+#q2
+a = 10
+b = 10
+if a == b:
+    print("equal")
 
-# Task 3
-num = int(input("Enter a number: "))
-print("Positive and even" if num > 0 and num % 2 == 0 else "Not positive or not even")
+#q3
+a>0 and (a%2==0)
 
-# Task 4
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
-print("All different" if len(set([a, b, c])) == 3 else "Not all different")
+#q4
+c = 40
+a != b and b != c and a != c
 
-# Task 5
-str1 = input("Enter first string: ")
-str2 = input("Enter second string: ")
-print("Same length" if len(str1) == len(str2) else "Different length")
+#q5
+len(name) == len(password)
 
-# Task 6
-num = int(input("Enter a number: "))
-print("Divisible by 3 and 5" if num % 3 == 0 and num % 5 == 0 else "Not divisible by both")
+#q6
+c%5 == 0 and c%3 ==0
 
-# Task 7
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-print("Greater than 50" if (a + b) > 50 else "Not greater than 50")
-
-# Task 8
-num = int(input("Enter a number: "))
-print("Between 10 and 20" if 10 <= num <= 20 else "Not in range")
-
-
+#q7
+a+b>50.8
+c>=10 and c<=20
