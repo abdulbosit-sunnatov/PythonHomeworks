@@ -1,0 +1,7 @@
+Word Count Report
+Total Words: 4
+Top 5 Words:
+salom - 1
+mening - 1
+ismim - 1
+abdulbosit - 1
