@@ -11,7 +11,7 @@ GEO_URL = "http://api.openweathermap.org/geo/1.0/direct"
 
 if not API_KEY:
     raise ValueError("API_KEY is missing in the .env file.")
-
+            
 def get_coordinates(city):
     """Fetch latitude and longitude for a given city."""
     params = {"q": city, "appid": API_KEY, "limit": 1}
