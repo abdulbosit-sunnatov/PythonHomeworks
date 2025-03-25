@@ -78,7 +78,7 @@ def main():
     print(f" 💧 Humidity   : {weather_data['main']['humidity']}%")
     print(f" 🌬️  Wind Speed : {weather_data['wind']['speed']} m/s")
     print("=" * 32 + "\n")
-
+                    
 
 
 if __name__ == "__main__":
